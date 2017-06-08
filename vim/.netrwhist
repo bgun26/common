@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/bahadir/Programming/scripts/crontab'
+let g:netrw_dirhist_2='/home/bahadir/Programming/scripts/mp3_organize'
+let g:netrw_dirhist_3='/tmp/yaourt-tmp-bahadir/aur-gcc49/src/gcc-4.9.3/INSTALL'
+let g:netrw_dirhist_4='/home/bahadir/.config/autostart-scripts'
+let g:netrw_dirhist_5='/home/bahadir/Programming/lang/C/elevator-simulation/udp'
+let g:netrw_dirhist_6='/home/bahadir/.config/autostart'

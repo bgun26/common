@@ -1,0 +1,12 @@
+# Search: argument list(##), current file(%), regex, wildcard
+:[l]vim[grep] /pattern/[g][j] ## | lw (or cw)
+	# [j] don't jump, [g] show multiple matches in a line
+	# [l] store results into location list (local), otherwise into quickfix (global)
+
+# Search and replace in all buffers
+:bufdo %s/pattern/replace/ge | update
+	# [g] change all occurrences in a line
+	# [e] no error if pattern is not found
+
+# Open the file under cursor in a split window
+^wf
