@@ -1,0 +1,3 @@
+# {} replaced with filename, + as many files as possible, \; one by one
+find . -type f \( -name \*.cc -o -name \*.h \) -exec grep -n -e 'sensitive_pos' {} +
+find . -type f \( -name \*.cc -o -name \*.h \) -exec grep -n -e 'sensitive_pos' {} \;

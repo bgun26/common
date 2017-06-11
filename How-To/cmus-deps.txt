@@ -1,0 +1,1 @@
+jack-audio-connection-kit-devel pulseaudio-libs-devel opusfile-devel libsamplerate-devel alsa-lib-devel libcue-devel systemd-devel ffmpeg-devel

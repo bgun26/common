@@ -1,0 +1,2 @@
+# http://www.imagemagick.org/Usage/blur/
+convert circle_on_blue.png -blur 0x8 circle_on_blue_blur.png

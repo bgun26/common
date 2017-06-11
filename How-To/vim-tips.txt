@@ -1,12 +1,29 @@
+#####
 # Search: argument list(##), current file(%), regex, wildcard
+#####
 :[l]vim[grep] /pattern/[g][j] ## | lw (or cw)
 	# [j] don't jump, [g] show multiple matches in a line
 	# [l] store results into location list (local), otherwise into quickfix (global)
 
+#####
 # Search and replace in all buffers
+#####
 :bufdo %s/pattern/replace/ge | update
 	# [g] change all occurrences in a line
 	# [e] no error if pattern is not found
 
-# Open the file under cursor in a split window
+#####
+# Open the function definition under cursor in a split window
+#####
 ^wf
+
+#####
+# : commands
+#####
+:[range] [g][v]/re/[p][d][m][j]
+	# [range] '%' for all lines, '3,$' from line 3 to the end,
+		# '.,+6' from current line through the next 6 lines
+	# [g] global, [v] reVerse
+	# [p] print, [d] delete, [m] move, [j] join
+		# ':% g/re/m$' move all matching lines to the end
+		# ':% v/re/-1j' for every non-matching line, go up one line and join them

@@ -1,0 +1,5 @@
+# for files
+find . -type f -exec chmod 644 {} \;
+
+# for directories
+find . -type d -exec chmod 755 {} \;

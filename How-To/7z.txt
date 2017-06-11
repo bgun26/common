@@ -1,0 +1,2 @@
+# will ask for a password
+7za a -mhe=on -p output.7z source

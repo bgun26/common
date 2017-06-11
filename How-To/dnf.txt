@@ -1,0 +1,5 @@
+# Show files to be installed for a package 
+dnf repoquery -l packagename
+
+# Show installed files for a local package
+rpm -ql packagename

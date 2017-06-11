@@ -1,0 +1,2 @@
+pdfjam input1.pdf start,finish input2.pdf start,finish (--landscape) -o out.pdf
+pdftk file1.pdf file2.pdf cat output mergedfile.pdf

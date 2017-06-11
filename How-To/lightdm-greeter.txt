@@ -1,0 +1,5 @@
+# config file
+/etc/lightdm/lightdm-gtk-greeter.conf
+
+# launch greeter
+dm-tool switch-to-greeter

@@ -1,0 +1,5 @@
+# mount, unlock screen during command
+jmtpfs ~/mnt/phone
+
+# unmount
+fusermount -u ~/mnt/phone
