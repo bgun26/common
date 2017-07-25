@@ -1,0 +1,4 @@
+Super+Alt+8: Toggle zoom enabled/disabled
+Super+Alt+'+': Zoom in
+Super+Alt+'=': Zoom in
+Super+Alt+'-': Zoom out
